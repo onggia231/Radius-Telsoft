@@ -1,0 +1,68 @@
+02:01:12,353 [Thread-2] (ThreadManager.java:464) ERROR ThreadManager:464 - Unable to load thread, class not found :thread.com.telsoft.TServer
+02:01:22,364 [Thread-2] (ThreadManager.java:464) ERROR ThreadManager:464 - Unable to load thread, class not found :thread.com.telsoft.TServer
+02:01:32,376 [Thread-2] (ThreadManager.java:464) ERROR ThreadManager:464 - Unable to load thread, class not found :thread.com.telsoft.TServer
+02:01:42,382 [Thread-2] (ThreadManager.java:464) ERROR ThreadManager:464 - Unable to load thread, class not found :thread.com.telsoft.TServer
+02:01:52,388 [Thread-2] (ThreadManager.java:464) ERROR ThreadManager:464 - Unable to load thread, class not found :thread.com.telsoft.TServer
+02:02:02,407 [Thread-2] (ThreadManager.java:464) ERROR ThreadManager:464 - Unable to load thread, class not found :thread.com.telsoft.TServer
+02:02:12,420 [Thread-2] (ThreadManager.java:464) ERROR ThreadManager:464 - Unable to load thread, class not found :thread.com.telsoft.TServer
+02:02:22,433 [Thread-2] (ThreadManager.java:464) ERROR ThreadManager:464 - Unable to load thread, class not found :thread.com.telsoft.TServer
+02:02:32,441 [Thread-2] (ThreadManager.java:464) ERROR ThreadManager:464 - Unable to load thread, class not found :thread.com.telsoft.TServer
+02:02:42,454 [Thread-2] (ThreadManager.java:464) ERROR ThreadManager:464 - Unable to load thread, class not found :thread.com.telsoft.TServer
+02:02:52,470 [Thread-2] (ThreadManager.java:464) ERROR ThreadManager:464 - Unable to load thread, class not found :thread.com.telsoft.TServer
+02:06:11,625 [pool-1-thread-1] (SocketTransmitter.java:197) ERROR SML:197 - Error at send thread
+java.net.SocketException: Connection reset by peer
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:413)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:433)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:812)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1120)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1115)
+	at com.caucho.hessian.io.HessianOutput.writeMapBegin(HessianOutput.java:380)
+	at com.caucho.hessian.io.AbstractHessianOutput.writeObjectBegin(AbstractHessianOutput.java:538)
+	at com.caucho.hessian.io.UnsafeSerializer.writeObject(UnsafeSerializer.java:169)
+	at com.caucho.hessian.io.HessianOutput.writeObject(HessianOutput.java:324)
+	at smartlib.transport.message.HessianObject.store(HessianObject.java:79)
+	at smartlib.transport.client.SocketTransmitter$1.onEvent(SocketTransmitter.java:192)
+	at smartlib.transport.client.SocketTransmitter$1.onEvent(SocketTransmitter.java:183)
+	at com.lmax.disruptor.BatchEventProcessor.processEvents(BatchEventProcessor.java:168)
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:125)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+02:07:06,528 [pool-1-thread-1] (SocketTransmitter.java:197) ERROR SML:197 - Error at send thread
+java.net.SocketException: Connection reset by peer
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:413)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:433)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:812)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1120)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1115)
+	at com.caucho.hessian.io.HessianOutput.writeMapBegin(HessianOutput.java:380)
+	at com.caucho.hessian.io.AbstractHessianOutput.writeObjectBegin(AbstractHessianOutput.java:538)
+	at com.caucho.hessian.io.UnsafeSerializer.writeObject(UnsafeSerializer.java:169)
+	at com.caucho.hessian.io.HessianOutput.writeObject(HessianOutput.java:324)
+	at smartlib.transport.message.HessianObject.store(HessianObject.java:79)
+	at smartlib.transport.client.SocketTransmitter$1.onEvent(SocketTransmitter.java:192)
+	at smartlib.transport.client.SocketTransmitter$1.onEvent(SocketTransmitter.java:183)
+	at com.lmax.disruptor.BatchEventProcessor.processEvents(BatchEventProcessor.java:168)
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:125)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+02:56:44,982 [pool-1-thread-1] (SocketTransmitter.java:197) ERROR SML:197 - Error at send thread
+java.net.SocketException: Connection reset by peer
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:413)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:433)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:812)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1120)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1115)
+	at com.caucho.hessian.io.HessianOutput.writeMapBegin(HessianOutput.java:380)
+	at com.caucho.hessian.io.AbstractHessianOutput.writeObjectBegin(AbstractHessianOutput.java:538)
+	at com.caucho.hessian.io.UnsafeSerializer.writeObject(UnsafeSerializer.java:169)
+	at com.caucho.hessian.io.HessianOutput.writeObject(HessianOutput.java:324)
+	at smartlib.transport.message.HessianObject.store(HessianObject.java:79)
+	at smartlib.transport.client.SocketTransmitter$1.onEvent(SocketTransmitter.java:192)
+	at smartlib.transport.client.SocketTransmitter$1.onEvent(SocketTransmitter.java:183)
+	at com.lmax.disruptor.BatchEventProcessor.processEvents(BatchEventProcessor.java:168)
+	at com.lmax.disruptor.BatchEventProcessor.run(BatchEventProcessor.java:125)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)

@@ -1,0 +1,234 @@
+25/12 22:44:55 java.lang.NullPointerException: Cannot invoke "smartlib.dictionary.DictionaryNode.getString(String)" because "ndConnection" is null
+25/12 22:44:55 	at smartlib.admin.server.AppServer.initStatic(AppServer.java:61)
+25/12 22:44:55 	at smartlib.admin.server.AppServer.<clinit>(AppServer.java:31)
+25/12 22:44:55 	at smartlib.admin.server.AppAuthenticator.<clinit>(AppAuthenticator.java:33)
+25/12 22:44:55 	at thread.com.telsoft.TelsoftManager.onCreate(TelsoftManager.java:63)
+25/12 22:44:55 	at smartlib.thread.ThreadProcessor.<init>(ThreadProcessor.java:64)
+25/12 22:44:55 	at smartlib.thread.ThreadManager.createThreadProcessor(ThreadManager.java:1014)
+25/12 22:44:55 	at smartlib.thread.ThreadServer.run(ThreadServer.java:86)
+25/12 22:44:55 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:06:00 java.lang.NullPointerException: Cannot invoke "smartlib.dictionary.DictionaryNode.getString(String)" because "ndConnection" is null
+26/12 02:06:00 	at smartlib.admin.server.AppServer.initStatic(AppServer.java:61)
+26/12 02:06:00 	at smartlib.admin.server.AppServer.<clinit>(AppServer.java:31)
+26/12 02:06:00 	at smartlib.admin.server.AppAuthenticator.<clinit>(AppAuthenticator.java:33)
+26/12 02:06:00 	at com.telsoft.thread.TelsoftManager.onCreate(TelsoftManager.java:63)
+26/12 02:06:00 	at smartlib.thread.ThreadProcessor.<init>(ThreadProcessor.java:64)
+26/12 02:06:00 	at smartlib.thread.ThreadManager.createThreadProcessor(ThreadManager.java:1014)
+26/12 02:06:00 	at smartlib.thread.ThreadServer.run(ThreadServer.java:86)
+26/12 02:06:00 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:06:58 java.lang.NullPointerException: Cannot invoke "smartlib.dictionary.DictionaryNode.getString(String)" because "ndConnection" is null
+26/12 02:06:58 	at smartlib.admin.server.AppServer.initStatic(AppServer.java:61)
+26/12 02:06:58 	at smartlib.admin.server.AppServer.<clinit>(AppServer.java:31)
+26/12 02:06:58 	at smartlib.admin.server.AppAuthenticator.<clinit>(AppAuthenticator.java:33)
+26/12 02:06:58 	at com.telsoft.thread.TelsoftManager.onCreate(TelsoftManager.java:63)
+26/12 02:06:58 	at smartlib.thread.ThreadProcessor.<init>(ThreadProcessor.java:64)
+26/12 02:06:58 	at smartlib.thread.ThreadManager.createThreadProcessor(ThreadManager.java:1014)
+26/12 02:06:58 	at smartlib.thread.ThreadServer.run(ThreadServer.java:86)
+26/12 02:06:58 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:27:19 Exception in thread "Thread-0" 26/12 02:27:19 java.lang.NoClassDefFoundError: com/caucho/hessian/io/HessianInput
+26/12 02:27:19 	at smartlib.transport.message.HessianObject.load(HessianObject.java:66)
+26/12 02:27:19 	at smartlib.transport.message.HessianObject.<init>(HessianObject.java:55)
+26/12 02:27:19 	at smartlib.transport.TransportFactory.createPacket(TransportFactory.java:28)
+26/12 02:27:19 	at smartlib.thread.ThreadServer.run(ThreadServer.java:73)
+26/12 02:27:19 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:27:19 Caused by: java.lang.ClassNotFoundException: com.caucho.hessian.io.HessianInput
+26/12 02:27:19 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+26/12 02:27:19 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:27:19 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:27:19 	... 5 more
+26/12 02:28:32 Exception in thread "Thread-0" 26/12 02:28:32 java.lang.NoClassDefFoundError: com/caucho/hessian/io/HessianInput
+26/12 02:28:32 	at smartlib.transport.message.HessianObject.load(HessianObject.java:66)
+26/12 02:28:32 	at smartlib.transport.message.HessianObject.<init>(HessianObject.java:55)
+26/12 02:28:32 	at smartlib.transport.TransportFactory.createPacket(TransportFactory.java:28)
+26/12 02:28:32 	at smartlib.thread.ThreadServer.run(ThreadServer.java:73)
+26/12 02:28:32 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:28:32 Caused by: java.lang.ClassNotFoundException: com.caucho.hessian.io.HessianInput
+26/12 02:28:32 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+26/12 02:28:32 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:28:32 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:28:32 	... 5 more
+26/12 02:29:57 Exception in thread "Thread-0" 26/12 02:29:57 java.lang.NoClassDefFoundError: com/caucho/hessian/io/HessianInput
+26/12 02:29:57 	at smartlib.transport.message.HessianObject.load(HessianObject.java:66)
+26/12 02:29:57 	at smartlib.transport.message.HessianObject.<init>(HessianObject.java:55)
+26/12 02:29:57 	at smartlib.transport.TransportFactory.createPacket(TransportFactory.java:28)
+26/12 02:29:57 	at smartlib.thread.ThreadServer.run(ThreadServer.java:73)
+26/12 02:29:57 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:29:57 Caused by: java.lang.ClassNotFoundException: com.caucho.hessian.io.HessianInput
+26/12 02:29:57 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+26/12 02:29:57 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:29:57 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:29:57 	... 5 more
+26/12 02:30:40 Exception in thread "Thread-0" 26/12 02:30:40 java.lang.NoClassDefFoundError: com/caucho/hessian/io/HessianInput
+26/12 02:30:40 	at smartlib.transport.message.HessianObject.load(HessianObject.java:66)
+26/12 02:30:40 	at smartlib.transport.message.HessianObject.<init>(HessianObject.java:55)
+26/12 02:30:40 	at smartlib.transport.TransportFactory.createPacket(TransportFactory.java:28)
+26/12 02:30:40 	at smartlib.thread.ThreadServer.run(ThreadServer.java:73)
+26/12 02:30:40 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:30:40 Caused by: java.lang.ClassNotFoundException: com.caucho.hessian.io.HessianInput
+26/12 02:30:40 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+26/12 02:30:40 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:30:40 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:30:40 	... 5 more
+26/12 02:31:30 Exception in thread "Thread-0" 26/12 02:31:30 java.lang.NoClassDefFoundError: com/caucho/hessian/io/HessianInput
+26/12 02:31:30 	at smartlib.transport.message.HessianObject.load(HessianObject.java:66)
+26/12 02:31:30 	at smartlib.transport.message.HessianObject.<init>(HessianObject.java:55)
+26/12 02:31:30 	at smartlib.transport.TransportFactory.createPacket(TransportFactory.java:28)
+26/12 02:31:30 	at smartlib.thread.ThreadServer.run(ThreadServer.java:73)
+26/12 02:31:30 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:31:30 Caused by: java.lang.ClassNotFoundException: com.caucho.hessian.io.HessianInput
+26/12 02:31:30 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+26/12 02:31:30 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:31:30 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:31:30 	... 5 more
+26/12 02:31:58 Exception in thread "Thread-0" 26/12 02:31:58 java.lang.NoClassDefFoundError: com/caucho/hessian/io/HessianInput
+26/12 02:31:58 	at smartlib.transport.message.HessianObject.load(HessianObject.java:66)
+26/12 02:31:58 	at smartlib.transport.message.HessianObject.<init>(HessianObject.java:55)
+26/12 02:31:58 	at smartlib.transport.TransportFactory.createPacket(TransportFactory.java:28)
+26/12 02:31:58 	at smartlib.thread.ThreadServer.run(ThreadServer.java:73)
+26/12 02:31:58 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:31:58 Caused by: java.lang.ClassNotFoundException: com.caucho.hessian.io.HessianInput
+26/12 02:31:58 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+26/12 02:31:58 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:31:58 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:31:58 	... 5 more
+26/12 02:33:08 java.lang.NullPointerException: Cannot invoke "smartlib.dictionary.DictionaryNode.getString(String)" because "ndConnection" is null
+26/12 02:33:08 	at smartlib.admin.server.AppServer.initStatic(AppServer.java:61)
+26/12 02:33:08 	at smartlib.admin.server.AppServer.<clinit>(AppServer.java:31)
+26/12 02:33:08 	at smartlib.admin.server.AppAuthenticator.<clinit>(AppAuthenticator.java:33)
+26/12 02:33:08 	at com.telsoft.thread.TelsoftManager.onCreate(TelsoftManager.java:61)
+26/12 02:33:08 	at smartlib.thread.ThreadProcessor.<init>(ThreadProcessor.java:64)
+26/12 02:33:08 	at smartlib.thread.ThreadManager.createThreadProcessor(ThreadManager.java:1014)
+26/12 02:33:08 	at smartlib.thread.ThreadServer.run(ThreadServer.java:86)
+26/12 02:33:08 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:33:52 java.lang.NullPointerException: Cannot invoke "smartlib.dictionary.DictionaryNode.getString(String)" because "ndConnection" is null
+26/12 02:33:52 	at smartlib.admin.server.AppServer.initStatic(AppServer.java:61)
+26/12 02:33:52 	at smartlib.admin.server.AppServer.<clinit>(AppServer.java:31)
+26/12 02:33:52 	at smartlib.admin.server.AppAuthenticator.<clinit>(AppAuthenticator.java:33)
+26/12 02:33:52 	at com.telsoft.thread.TelsoftManager.onCreate(TelsoftManager.java:61)
+26/12 02:33:52 	at smartlib.thread.ThreadProcessor.<init>(ThreadProcessor.java:64)
+26/12 02:33:52 	at smartlib.thread.ThreadManager.createThreadProcessor(ThreadManager.java:1014)
+26/12 02:33:52 	at smartlib.thread.ThreadServer.run(ThreadServer.java:86)
+26/12 02:33:52 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:34:22 java.lang.NullPointerException: Cannot invoke "smartlib.dictionary.DictionaryNode.getString(String)" because "ndConnection" is null
+26/12 02:34:22 	at smartlib.admin.server.AppServer.initStatic(AppServer.java:61)
+26/12 02:34:22 	at smartlib.admin.server.AppServer.<clinit>(AppServer.java:31)
+26/12 02:34:22 	at smartlib.admin.server.AppAuthenticator.<clinit>(AppAuthenticator.java:33)
+26/12 02:34:22 	at com.telsoft.thread.TelsoftManager.onCreate(TelsoftManager.java:61)
+26/12 02:34:22 	at smartlib.thread.ThreadProcessor.<init>(ThreadProcessor.java:64)
+26/12 02:34:22 	at smartlib.thread.ThreadManager.createThreadProcessor(ThreadManager.java:1014)
+26/12 02:34:22 	at smartlib.thread.ThreadServer.run(ThreadServer.java:86)
+26/12 02:34:22 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:35:02 java.lang.NullPointerException: Cannot invoke "smartlib.dictionary.DictionaryNode.getString(String)" because "ndConnection" is null
+26/12 02:35:02 	at smartlib.admin.server.AppServer.initStatic(AppServer.java:61)
+26/12 02:35:02 	at smartlib.admin.server.AppServer.<clinit>(AppServer.java:31)
+26/12 02:35:02 	at smartlib.admin.server.AppAuthenticator.<clinit>(AppAuthenticator.java:33)
+26/12 02:35:02 	at com.telsoft.thread.TelsoftManager.onCreate(TelsoftManager.java:61)
+26/12 02:35:02 	at smartlib.thread.ThreadProcessor.<init>(ThreadProcessor.java:64)
+26/12 02:35:02 	at smartlib.thread.ThreadManager.createThreadProcessor(ThreadManager.java:1014)
+26/12 02:35:02 	at smartlib.thread.ThreadServer.run(ThreadServer.java:86)
+26/12 02:35:02 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:41:03 Exception in thread "Thread-0" 26/12 02:41:03 java.lang.NoClassDefFoundError: com/caucho/hessian/io/HessianInput
+26/12 02:41:03 	at smartlib.transport.message.HessianObject.load(HessianObject.java:66)
+26/12 02:41:03 	at smartlib.transport.message.HessianObject.<init>(HessianObject.java:55)
+26/12 02:41:03 	at smartlib.transport.TransportFactory.createPacket(TransportFactory.java:28)
+26/12 02:41:03 	at smartlib.thread.ThreadServer.run(ThreadServer.java:73)
+26/12 02:41:03 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:41:03 Caused by: java.lang.ClassNotFoundException: com.caucho.hessian.io.HessianInput
+26/12 02:41:03 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+26/12 02:41:03 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:41:03 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:41:03 	... 5 more
+26/12 02:41:23 Exception in thread "Thread-0" 26/12 02:41:23 java.lang.NoClassDefFoundError: com/caucho/hessian/io/HessianInput
+26/12 02:41:23 	at smartlib.transport.message.HessianObject.load(HessianObject.java:66)
+26/12 02:41:23 	at smartlib.transport.message.HessianObject.<init>(HessianObject.java:55)
+26/12 02:41:23 	at smartlib.transport.TransportFactory.createPacket(TransportFactory.java:28)
+26/12 02:41:23 	at smartlib.thread.ThreadServer.run(ThreadServer.java:73)
+26/12 02:41:23 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:41:23 Caused by: java.lang.ClassNotFoundException: com.caucho.hessian.io.HessianInput
+26/12 02:41:23 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+26/12 02:41:23 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:41:23 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:41:23 	... 5 more
+26/12 02:42:40 Exception in thread "Thread-0" 26/12 02:42:40 java.lang.NoClassDefFoundError: com/caucho/hessian/io/HessianInput
+26/12 02:42:40 	at smartlib.transport.message.HessianObject.load(HessianObject.java:66)
+26/12 02:42:40 	at smartlib.transport.message.HessianObject.<init>(HessianObject.java:55)
+26/12 02:42:40 	at smartlib.transport.TransportFactory.createPacket(TransportFactory.java:28)
+26/12 02:42:40 	at smartlib.thread.ThreadServer.run(ThreadServer.java:73)
+26/12 02:42:40 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:42:40 Caused by: java.lang.ClassNotFoundException: com.caucho.hessian.io.HessianInput
+26/12 02:42:40 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+26/12 02:42:40 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:42:40 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:42:40 	... 5 more
+26/12 02:43:13 Exception in thread "Thread-0" 26/12 02:43:13 java.lang.NoClassDefFoundError: javax/servlet/http/HttpServlet
+26/12 02:43:13 	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+26/12 02:43:13 	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1013)
+26/12 02:43:13 	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+26/12 02:43:13 	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+26/12 02:43:13 	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+26/12 02:43:13 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+26/12 02:43:13 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+26/12 02:43:13 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:43:13 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:43:13 	at smartlib.admin.server.AppServer.initStatic(AppServer.java:36)
+26/12 02:43:13 	at smartlib.admin.server.AppServer.<clinit>(AppServer.java:31)
+26/12 02:43:13 	at smartlib.admin.server.AppAuthenticator.<clinit>(AppAuthenticator.java:33)
+26/12 02:43:13 	at com.telsoft.thread.TelsoftManager.onCreate(TelsoftManager.java:61)
+26/12 02:43:13 	at smartlib.thread.ThreadProcessor.<init>(ThreadProcessor.java:64)
+26/12 02:43:13 	at smartlib.thread.ThreadManager.createThreadProcessor(ThreadManager.java:1014)
+26/12 02:43:13 	at smartlib.thread.ThreadServer.run(ThreadServer.java:86)
+26/12 02:43:13 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:43:13 Caused by: java.lang.ClassNotFoundException: javax.servlet.http.HttpServlet
+26/12 02:43:13 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+26/12 02:43:13 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:43:13 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:43:13 	... 17 more
+26/12 02:43:58 java.lang.NullPointerException: Cannot invoke "smartlib.dictionary.DictionaryNode.getString(String)" because "ndConnection" is null
+26/12 02:43:58 	at smartlib.admin.server.AppServer.initStatic(AppServer.java:61)
+26/12 02:43:58 	at smartlib.admin.server.AppServer.<clinit>(AppServer.java:31)
+26/12 02:43:58 	at smartlib.admin.server.AppAuthenticator.<clinit>(AppAuthenticator.java:33)
+26/12 02:43:58 	at com.telsoft.thread.TelsoftManager.onCreate(TelsoftManager.java:61)
+26/12 02:43:58 	at smartlib.thread.ThreadProcessor.<init>(ThreadProcessor.java:64)
+26/12 02:43:58 	at smartlib.thread.ThreadManager.createThreadProcessor(ThreadManager.java:1014)
+26/12 02:43:58 	at smartlib.thread.ThreadServer.run(ThreadServer.java:86)
+26/12 02:43:58 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:44:55 Exception in thread "Thread-0" 26/12 02:44:55 java.lang.NoClassDefFoundError: com/caucho/hessian/io/HessianInput
+26/12 02:44:55 	at smartlib.transport.message.HessianObject.load(HessianObject.java:66)
+26/12 02:44:55 	at smartlib.transport.message.HessianObject.<init>(HessianObject.java:55)
+26/12 02:44:55 	at smartlib.transport.TransportFactory.createPacket(TransportFactory.java:28)
+26/12 02:44:55 	at smartlib.thread.ThreadServer.run(ThreadServer.java:73)
+26/12 02:44:55 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:44:55 Caused by: java.lang.ClassNotFoundException: com.caucho.hessian.io.HessianInput
+26/12 02:44:55 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+26/12 02:44:55 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:44:55 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:44:55 	... 5 more
+26/12 02:45:28 Exception in thread "Thread-0" 26/12 02:45:28 java.lang.NoClassDefFoundError: com/caucho/hessian/io/HessianInput
+26/12 02:45:28 	at smartlib.transport.message.HessianObject.load(HessianObject.java:66)
+26/12 02:45:28 	at smartlib.transport.message.HessianObject.<init>(HessianObject.java:55)
+26/12 02:45:28 	at smartlib.transport.TransportFactory.createPacket(TransportFactory.java:28)
+26/12 02:45:28 	at smartlib.thread.ThreadServer.run(ThreadServer.java:73)
+26/12 02:45:28 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:45:28 Caused by: java.lang.ClassNotFoundException: com.caucho.hessian.io.HessianInput
+26/12 02:45:28 	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+26/12 02:45:28 	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+26/12 02:45:28 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+26/12 02:45:28 	... 5 more
+26/12 02:45:58 java.lang.NullPointerException: Cannot invoke "smartlib.dictionary.DictionaryNode.getString(String)" because "ndConnection" is null
+26/12 02:45:58 	at smartlib.admin.server.AppServer.initStatic(AppServer.java:61)
+26/12 02:45:58 	at smartlib.admin.server.AppServer.<clinit>(AppServer.java:31)
+26/12 02:45:58 	at smartlib.admin.server.AppAuthenticator.<clinit>(AppAuthenticator.java:33)
+26/12 02:45:58 	at com.telsoft.thread.TelsoftManager.onCreate(TelsoftManager.java:61)
+26/12 02:45:58 	at smartlib.thread.ThreadProcessor.<init>(ThreadProcessor.java:64)
+26/12 02:45:58 	at smartlib.thread.ThreadManager.createThreadProcessor(ThreadManager.java:1014)
+26/12 02:45:58 	at smartlib.thread.ThreadServer.run(ThreadServer.java:86)
+26/12 02:45:58 	at java.base/java.lang.Thread.run(Thread.java:1589)
+26/12 02:56:36 java.lang.NullPointerException: Cannot invoke "smartlib.dictionary.DictionaryNode.getString(String)" because "ndConnection" is null
+26/12 02:56:36 	at smartlib.admin.server.AppServer.initStatic(AppServer.java:61)
+26/12 02:56:36 	at smartlib.admin.server.AppServer.<clinit>(AppServer.java:31)
+26/12 02:56:36 	at smartlib.admin.server.AppAuthenticator.<clinit>(AppAuthenticator.java:33)
+26/12 02:56:36 	at com.telsoft.thread.TelsoftManager.onCreate(TelsoftManager.java:61)
+26/12 02:56:36 	at smartlib.thread.ThreadProcessor.<init>(ThreadProcessor.java:64)
+26/12 02:56:36 	at smartlib.thread.ThreadManager.createThreadProcessor(ThreadManager.java:1014)
+26/12 02:56:36 	at smartlib.thread.ThreadServer.run(ThreadServer.java:86)
+26/12 02:56:36 	at java.base/java.lang.Thread.run(Thread.java:1589)

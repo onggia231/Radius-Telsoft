@@ -1,0 +1,10 @@
+#Thread config
+ErrorLog==log/general/error.log
+ActionLog==log/general/action.log
+AlertLog==log/general/alert.log
+MaxLoggingSize==10000
+MaxConnectionAllowed==5
+#Encription
+PubKey==configuration/public_key.asc
+PrivKey==configuration/private_key.asc
+PortID==9004
