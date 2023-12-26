@@ -1,0 +1,32 @@
+Parameter
+	FilePath==input
+	FilePathBackup==input/bak
+	ErrorPath==input/err
+	Delimiter==,
+	WildCard==*.txt
+	BatchSize==10
+	Mbf30-Setting=^
+		0=^
+			0==CTKV2_C1
+			1==1000060
+		1=^
+			0==CT2_C3_CN1
+			1==1000045
+		2=^
+			0==CTKV_Q1
+			1==1000038
+	LogDir==log/import_mbf30_file
+	Alert
+	Debug
+	SingleSession
+	ThreadGroup
+	LogDefinition
+	DelayTime==10
+	NotificationInterval
+	NotificationString
+	ConnectDB==Y
+ThreadName==TServer
+ClassName==com.telsoft.thread.TServer
+StartupType==2
+Status==1
+Schedule
